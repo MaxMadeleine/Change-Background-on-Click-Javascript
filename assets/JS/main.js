@@ -7,10 +7,8 @@ function changeColor(){
     const textDiv = document.getElementById("text");
 
     if (randomColor === '000000') {
-        textDiv.style.display = 'inline-block';
         colorDiv.style.display = 'none';
     } else {
-        textDiv.style.display = 'none';
         colorDiv.style.display = 'inline-block';
         colorDiv.textContent = "#" + randomColor;
        
