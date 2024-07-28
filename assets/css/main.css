@@ -9,14 +9,110 @@ html {
   margin: 0;
 }
 /* VARIABLES IN HTML: */
-:root {
-}
 body {
   font-family: "Smooch Sans", sans-serif; /*"SMOOCH SANS" IS A GOOGLE FONT*/
   font-weight: 400;
-  max-width: 1305px;
   margin: auto;
 }
+.mainContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mainContent button{
+font-family: "Smooch Sans", sans-serif; /*"SMOOCH SANS" IS A GOOGLE FONT*/
+font-size: 48px;
+letter-spacing: 5px;
+padding: 14px 58px;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+transition: 300ms;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+.mainContent button:active{
+scale: 1.14;
+}
+.mainContent #color{
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 48px;
+  padding: 14px 38px;
+  border-radius: 5px;
+  letter-spacing: 5px;
+  background-color: #00000080; 
+}
+.mainContent #text{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 28px;
+  padding: 14px 38px;
+  border-radius: 5px;
+  letter-spacing: 5px;
+  color: white;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  transition: 300ms;
+  -webkit-animation: rainbow 10s ease infinite;
+  -z-animation: rainbow 10s ease infinite;
+  -o-animation: rainbow 20s ease infinite;
+    animation: rainbow 20s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }  
 /* #endregion MAIN SHIT  */
 /* #region GLOBAL HEADER */
 /* #endregion */
